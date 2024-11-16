@@ -44,12 +44,12 @@ class UsersImport implements ToCollection, WithChunkReading, WithBatchInserts, W
 
     public function chunkSize(): int
     {
-        return 10000;
+        return 11000;
     }
 
     public function batchSize(): int
     {
-        return 10000; // Inserta 1000 registros a la vez en la base de datos
+        return 11000; // Inserta 1000 registros a la vez en la base de datos
     }
 }
 
